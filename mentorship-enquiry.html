@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Page title -->
+   <title>mentorship-enquiry</title>
+   
+   <!-- css styling -->
+   <link rel="stylesheet" href="style.css">
+   
+   <!-- fontawesome icons link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Google fonts link -->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Audiowide|Trirong">
+  
+</head>
+<body>
+    <!-- Home section -->
+<section class="sub-header_enq">
+  <nav>
+      <a href="#"><img src="images/logo.png"></a>
+      
+      <div class="nav-links" id="navLinks" onclick="closeMenu()"> 
+        <i class="fa fa-window-close" id="close-Menu" onclick="closeMenu()"></i>
+       <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+        <li><a href="#services">SERVICE</a>
+        </li>
+        <li><a href="mentorship.html">MENTORSHIP</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" id="openMenu" onclick="openMenu()">
+      </i>
+      </nav>
+      <h2 class="headline">Make Mentorship</h2>
+       <h1 class="headline-t">Enquiry</h1> 
+      
+   </section>
+
+      
+  <section class="contact-page">
+      
+      <h4>I'm eager to explore mentorship with you! Tell me a bit about yourself.
+
+
+      </h4>
+      
+     <div class="enquiry-form">
+      <form>
+     <div class="form-flex">
+      <fieldset>
+      <legend>  Provide Your Details </legend>
+      
+      <label>First Name</label>
+      <input type="text" id="data"
+       name="firstName" 
+       placeholder="First Name" 
+       id="firstName">
+       
+       <label>Last Name</label>
+      <input type="text" id="data"
+       name="lastName" 
+       placeholder="Last Name" 
+       id="lastName">
+       
+      <label>E-mail Address</label>
+      <input type="email" id="data"
+       name="email" 
+       placeholder="Enter your Email here" 
+       id="email" required>
+       
+        <label>Phone</label>
+      <input type="number" id="data"
+       name="number" 
+       placeholder="+2347011668311" 
+       id="number" required>
+     </fieldset>
+     
+     <fieldset>
+      <legend> Make Mentorship Enquiry 
+      </legend>
+      
+      <label>Type of Mentorship</label>
+      <select  id="data" >
+       <option>Sport Mentoring</option>
+       <option>Production Support</option>
+       <option>Tailored Learning</option>
+       </select>
+       
+       <label>Desired Outcome</label>
+      <select  id="data" >
+       <option>Fill Knowledge Gaps</option>
+       <option>Improve Design Chops</option>
+       <option>Make a Career Pivot</option>
+       <option>Others</option>
+       </select>
+       
+      <label>Your Story</label>
+      <textarea  id="data"
+       name="message"
+       placeholder="Hi, Basrahtop I'm excited with your portfolio, so am interested in your service." 
+       class="enquiry-details">
+      </textarea>
+ 
+     </fieldset>
+       </div>
+       
+       <button class="hero-btn"
+        type="submit" id="enquiry-btn">
+         Send
+     </button>
+      </form>
+      </div>
+  </section>
+  
+  
+  
+  <div class="copyright">
+         <h4>©Copyright || 2022 || Build by
+          Dev, Basrahtop || 100% trebEdit
+           Mobile Editor</h4>
+     </div>
+    
+    
+    
+ 
+ 
+ 
+ <script src="main.js"></script>
+</body>
+</html>

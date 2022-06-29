@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Page title -->
+   <title>booking-consultation-page</title>
+   
+   <!-- css styling -->
+   <link rel="stylesheet" href="style.css">
+   
+   <!-- fontawesome icons link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Google fonts link -->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Audiowide|Trirong">
+  
+</head>
+<body>
+    <!-- Home section -->
+<section class="headerupdating">
+   <div class="booking-row">
+   <div class="booking-content">
+   <h2>Book a session with</h2>
+   <h1>Dev, Basrahtop </h1>
+   <p>I can't wait to receive your booking
+    schedule. Let's do a 15min to 1hr Free
+     consultation</p>
+     </div>
+     
+    <form>
+   <div class="f-col">
+   <div class="f-row">
+     <fieldset>
+ <label for="your-name" id="booking-data">
+  Your Name</label>
+    <input type="text" 
+  placeholder="Dev, Basrahtop"  
+  name="your-name" id="your-name" >
+  
+  <label for="email" 
+   id="booking-data">Email</label>
+  <input type="email" 
+  placeholder="support@devbasrahtop.com"  
+  name="email" id="email" required>
+  
+  <label for="Phone"  
+  id="booking-data">Your Phone</label>
+    <input type="number" 
+  placeholder="+2347011668311"  
+  name="phone" id="phone" required>
+  
+  <label for="country" 
+   id="booking-data">Your Country</label>
+    <input type="text" 
+  placeholder="Nigeria"  
+  name="country" id="country" required>
+  
+     </fieldset>
+     
+     <fieldset>
+ <label for="time-zone" id="booking-data">
+  Country time zone</label>
+    <input type="text" 
+  placeholder="WAT GMT+1/UTC+1"  
+  name="time-zone" id="time-zone" >
+  
+  <label for="time" 
+   id="booking-data">Time</label>
+  <input type="time" 
+  placeholder="00:00 - 01:00"  
+  name="time" id="email" inline  required>
+  
+  <label for="date"  
+  id="booking-data">Date</label>
+    <input type="date" 
+  name="date" id="date" inline  required>
+  
+  <label for="communication" 
+   id="booking-data">Communication Channel
+   </label>
+   <select name="communication"
+     id="communication" value
+      required>
+   <option> Physical </option>
+   <option> Online </option>
+    
+    </select>
+     </fieldset>
+    </div>
+ 
+   <label for="message" id="booking-data" class="booking-data">
+      Tell me your preferred online
+     channel</label>
+     <textarea placeholder="Hi Basrahtop, I will love to meet you on zoom call" id="message"></textarea> <br>
+     <button type="submit">Book</button>
+     </div>
+    
+    </form>
+     
+         
+</section>
+
+ <script src="main.js"></script>
+</body>
+</html>
